@@ -1,0 +1,11 @@
+########## Settings of each project ##########
+
+### GitExtension ###
+### https://github.com/gitextensions/gitextensions
+
+# Config file
+GitExtensions.settings
+
+## END GitExtension ##
+
+########## END Settings of each project ##########
