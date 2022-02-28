@@ -7,24 +7,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oppgave 1</title>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-            margin: 0 20px;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-
-        a {
-            font-size: 3rem;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <div>All results in console<br>Oppgave 1<br><br></div>
     <a href="oppgave-1.html">Oppgave 1</a>
     <a href="oppgave-2.html">Oppgave 2</a>
     <a href="oppgave-3.html">Oppgave 3</a>
@@ -34,22 +21,7 @@
     <a href="oppgave-7.html">Oppgave 7</a>
     <a href="oppgave-8.html">Oppgave 8</a>
 
-    <script>
-        brakeTekst(" Oppgave 1 ");
-
-        const tekst = "Hvilken mesterhjerne sto bak den første sandwichen? Jo, det var jarlen av Sandwich, i 1762. Han ønsket en rett han kunne spise mens han spilte kort. Han nektet å gå fra spillebordet og ville ha noe han enkelt kunne spise med hendene, så da fikk han salt kjøtt servert mellom to skiver brød. Her får du syv sterke varianter du kan prøve eller la deg inspirere av.";
-        const howManyWords = 30;
-
-        const textArray = tekst.split(" ");
-        const isLonger = howManyWords < textArray.length ? "longer" : "shorter";
-
-        console.log(`You looking for text: 30 words, this text is: ${textArray.length} words, this text is ${isLonger}\n\n`);
-        brakeTekst();
-
-        function brakeTekst(info = "") {
-            console.log(`#####${info}#####\n\n`)
-        }
-    </script>
+    <script src="js/oppgave-1.js"></script>
 </body>
 
 </html>
