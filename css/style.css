@@ -12,3 +12,13 @@ body {
 a {
     font-size: 1.5rem;
 }
+
+.start {
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 15px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

@@ -19,3 +19,4 @@ Bruk av methods og loops:
 ## Result
 
 ![Result](img/result.png)
+![Result](img/result2.png)
