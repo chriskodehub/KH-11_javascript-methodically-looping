@@ -1,7 +1,7 @@
 # JavaScript - Methodically looping
 
 [Source code](https://github.com/chriskodehub/KH-11_javascript-methodically-looping)  
-[Live demo](https://chriskodehub.github.io/KH-11_javascript-methodically-looping/)
+[Live demo](https://chriskodehub.github.io/KH-11_javascript-methodically-looping/)  
 [Live demo - Game oppgave 6](https://chriskodehub.github.io/KH-11_javascript-methodically-looping/game.html)
 
 ## Oppgave
